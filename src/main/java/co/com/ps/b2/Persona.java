@@ -1,7 +1,6 @@
 package co.com.ps.b2;
 
-import java.time.LocalDate;
-import java.util.Date;
+
 
 public class Persona  {
 

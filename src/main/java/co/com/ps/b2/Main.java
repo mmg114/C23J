@@ -1,9 +1,8 @@
 package co.com.ps.b2;
 
 import java.time.LocalDate;
-import java.util.Date;
 import java.util.List;
-import java.util.Map;
+
 
 public class Main {
 
@@ -15,13 +14,16 @@ public class Main {
         persona.edad=12;
         persona.id="1231241";
         persona.estatura=1.78f;
-
+        System.out.println("Llamar Caminar "+ persona.caminar(3));
 
         persona.caminar(3);
         persona.bailar();
         Persona.cantar();
         System.out.println(LocalDate.now());
+
+
         Persona p1;
+
         Persona persona2 = new Persona("Mauricio",30,"1144123123",1.90f);
         Persona persona3 = new Persona("martha",30,"1144123123",1.90f);
         Persona persona4= new Persona("Diana",30,"1144123123",1.90f);
