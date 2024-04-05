@@ -15,5 +15,7 @@ public class EntradaConsola {
         System.out.print("Escriba Su edad: ");
         int edad = scanner.nextInt();
         System.out.println("Su edad es "+ edad);
+
+        scanner.close();
     }
 }

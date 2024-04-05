@@ -50,22 +50,5 @@ public class ControlDeFlujo {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-        // Ejemplo de Stream
-        List<String> palabras = Arrays.asList("Hola", "Mundo", "Stream", "Ejemplo");
-        List<String> palabrasFiltradas = palabras.stream()
-                .filter(palabra -> palabra.length() > 4)
-                .toList();
-        System.out.println("Palabras filtradas (Stream): " + palabrasFiltradas); // Output: [Mundo, Stream, Ejemplo]
     }
 }
