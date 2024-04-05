@@ -18,5 +18,4 @@ public class Main {
         LocalDate fechaLocal= LocalDate.now();
         System.out.println(edad);
     }
-
 }
