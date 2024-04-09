@@ -3,6 +3,7 @@ package co.com.ps.b4;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class ClaseStream {
 
@@ -23,8 +24,9 @@ public class ClaseStream {
 
         numero.stream().distinct().forEach(System.out::println);
 
+        List<String> palabras3 = Arrays.asList("hola", "adiós", "hasta luego", "hasta pronto");
 
-
+        Optional<String> a= palabras3.stream().filter(p-> p.startsWith("h")).findFirst();
 
     }
 }

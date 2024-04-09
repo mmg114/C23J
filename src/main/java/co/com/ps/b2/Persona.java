@@ -13,7 +13,6 @@ public class Persona  {
     String telefono;
 
     Persona(){
-
     }
 
     Persona(String nombre,int edad,String id,float estatura){

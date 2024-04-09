@@ -82,7 +82,9 @@ public class Main {
         miArreglo2[0]="Hola Que tal";
 
 
+        for (int i = 0; i <miArreglo.length ; i++) {
 
+        }
 
 
 
