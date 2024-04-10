@@ -1,21 +1,16 @@
 package co.com.ps.b5;
 
 public enum DiaDeLaSemana {
-    DOMINGO(1),
-    LUNES(2),
-    MARTES(3),
-    MIÉRCOLES(4),
-    JUEVES(5),
-    VIERNES(6),
-    SÁBADO(7);
+    ELECTRODOMESTICOS(0.25);
 
-    private final int valor;
 
-    DiaDeLaSemana(int valor) {
+    private final Double valor;
+
+    DiaDeLaSemana(Double valor) {
         this.valor = valor;
     }
 
-    public int getValor() {
+    public Double getValor() {
         return valor;
     }
 }

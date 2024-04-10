@@ -9,5 +9,9 @@ public class Main {
         }else {
             System.out.println("Hoy se descansa");
         }
+
+        System.out.println( DiaDeLaSemana.ELECTRODOMESTICOS.getValor());
+
+
     }
 }
